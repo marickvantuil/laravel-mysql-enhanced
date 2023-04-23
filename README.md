@@ -4,7 +4,7 @@
 [![Tests](https://github.com/marickvantuil/laravel-mysql-enhanced/actions/workflows/run-tests.yml/badge.svg)](https://github.com/marickvantuil/laravel-mysql-enhanced/actions/workflows/run-tests.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/marick/laravel-mysql-enhanced.svg)](https://packagist.org/packages/marick/laravel-mysql-enhanced)
 
-The package currently only adds support for lateral joins which is something I needed but the idea is similar to Tobias Petry's package: [Laravel Postgres Enhanced](https://github.com/tpetry/laravel-postgresql-enhanced).
+The package currently only adds support for lateral joins because is something I needed. The idea is similar to Tobias Petry's amazing package: [Laravel Postgres Enhanced](https://github.com/tpetry/laravel-postgresql-enhanced).
 
 Feel free to make a PR to add more features.
 
