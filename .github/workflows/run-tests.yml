@@ -35,7 +35,7 @@ jobs:
           extensions: mbstring, dom, fileinfo
           coverage: none
 
-      - name: Set up MySQL and PostgreSQL
+      - name: Set up MySQL
         run: |
           MYSQL_PORT=3307 docker compose up ${{ matrix.db }} -d
       - name: Install dependencies
