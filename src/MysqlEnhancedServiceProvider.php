@@ -9,7 +9,7 @@ use Illuminate\Database\Connection;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 use PDO;
 
-class ServiceProvider extends LaravelServiceProvider
+class MysqlEnhancedServiceProvider extends LaravelServiceProvider
 {
     /**
      * Register the service provider.
