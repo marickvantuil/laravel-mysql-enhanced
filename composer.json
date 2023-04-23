@@ -1,0 +1,23 @@
+{
+    "name": "marick/laravel-mysql-enhanced",
+    "autoload": {
+        "psr-4": {
+            "Marick\\LaravelMysqlEnhanced\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marick van Tuil",
+            "email": "info@marickvantuil.nl"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.5",
+        "phpunit/phpunit": "^10.1"
+    }
+}
