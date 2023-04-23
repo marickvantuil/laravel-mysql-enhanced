@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MysqlEnhancedServiceProvider"
+                "Marick\\LaravelMysqlEnhanced\\MysqlEnhancedServiceProvider"
             ]
         }
     }
