@@ -24,7 +24,7 @@ class LateralJoinTest extends TestCase
             ->toSql();
 
         $this->assertEquals(
-            'select "users"."email", "posts".* from "users" inner join lateral (select * from "posts" where "posts"."user_id" = "users"."id" order by "price" desc limit 3) as "posts" on true',
+            'select `users`.`email`, `posts`.* from `users` inner join lateral (select * from `posts` where `posts`.`user_id` = `users`.`id` order by `price` desc limit 3) as `posts` on true',
             $query
         );
     }
@@ -44,7 +44,7 @@ class LateralJoinTest extends TestCase
             ->toSql();
 
         $this->assertEquals(
-            'select "users"."email", "posts".* from "users" left join lateral (select * from "posts" where "posts"."user_id" = "users"."id" order by "price" desc limit 3) as "posts" on true',
+            'select `users`.`email`, `posts`.* from `users` left join lateral (select * from `posts` where `posts`.`user_id` = `users`.`id` order by `price` desc limit 3) as `posts` on true',
             $query
         );
     }
