@@ -1,5 +1,7 @@
 {
     "name": "marick/laravel-mysql-enhanced",
+    "description": "Add support for lateral joins and more in MySQL for Laravel",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Marick\\LaravelMysqlEnhanced\\": "src/"

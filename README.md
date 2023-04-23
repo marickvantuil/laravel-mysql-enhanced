@@ -1,6 +1,12 @@
 # Enhance MySQL for Laravel with new features 
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/marick/laravel-mysql-enhanced.svg)](https://packagist.org/packages/marick/laravel-mysql-enhanced)
+[![Tests](https://github.com/marickvantuil/laravel-mysql-enhanced/actions/workflows/run-tests.yml/badge.svg)](https://github.com/marickvantuil/laravel-mysql-enhanced/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/marick/laravel-mysql-enhanced.svg)](https://packagist.org/packages/marick/laravel-mysql-enhanced)
+
 The package currently only adds support for lateral joins which is something I needed but the idea is similar to Tobias Petry's package: [Laravel Postgres Enhanced](https://github.com/tpetry/laravel-postgresql-enhanced).
+
+Feel free to make a PR to add more features.
 
 ## Installation
 
