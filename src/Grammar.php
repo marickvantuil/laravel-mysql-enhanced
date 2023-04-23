@@ -4,15 +4,9 @@ declare(strict_types=1);
 
 namespace Marick\LaravelMysqlEnhanced;
 
-use Illuminate\Database\Query\Builder as BaseBuilder;
-use Illuminate\Database\Query\Grammars\PostgresGrammar;
+use Illuminate\Database\Query\Grammars\MySqlGrammar;
 
-class Grammar extends PostgresGrammar
+class Grammar extends MySqlGrammar
 {
     use GrammarWhere;
-
-    public function compileSelect(BaseBuilder $query): string
-    {
-        return parent::compileSelect($query);
-    }
 }
