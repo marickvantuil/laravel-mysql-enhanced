@@ -10,4 +10,9 @@ class TestCase extends \Orchestra\Testbench\TestCase
             \Marick\LaravelMysqlEnhanced\MysqlEnhancedServiceProvider::class,
         ];
     }
+
+    protected function getEnvironmentSetUp($app)
+    {
+        $app->config['database.default'] = 'mysql';
+    }
 }
